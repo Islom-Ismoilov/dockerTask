@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <test name="GoogleSearchTests">
+        <classes>
+            <class name="TestCases.GoogleSearchTest"/>
+            <!-- Add other test classes as needed -->
+        </classes>
+    </test>
+    <test name="FacebookLoginTest">
+        <classes>
+            <class name="TestCases.FacebookLoginTest"/>
+            <!-- Add other test classes as needed -->
+        </classes>
+    </test>
+    <!-- Add more test configurations if needed -->
+</suite>
